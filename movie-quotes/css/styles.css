@@ -1,0 +1,46 @@
+body{
+    background-color: black;
+}
+h1{
+    font-family: monospace;
+    font-size: 40px;
+    color: white;
+    margin-left: 1ch;
+}
+section{
+    font-size: 20px;
+    margin-left: 4ch;
+    margin-top: 8ch;
+    margin-right: 4ch;
+   
+}
+.peter{
+    color:tomato;
+    font-family: monospace;
+}
+.dana{
+    color:cyan;
+    font-family: monospace;
+}
+.mayor{
+    color:mediumslateblue;
+    font-family: monospace;
+}
+.ray{
+    color:lightgreen;
+    font-family: monospace;
+}
+.egon{
+    color:orange;
+    font-family: monospace;
+}
+.winston{
+    color:yellow;
+    font-family: monospace;
+}
+b{
+    font-weight:900;
+}
+.notes{
+    color:white;
+}
