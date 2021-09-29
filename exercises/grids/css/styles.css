@@ -1,0 +1,28 @@
+.grid{
+    padding: 0;
+}
+.grid img{
+    width: 150px; 
+    width: 90%;  
+}
+.grid li{
+    display: block;   
+    width: 25%;
+    text-align: center;
+    font-size: 0.8rem;
+    margin-bottom: 1rem;
+}
+.using-floats li{
+    float: left;
+}
+.using-floats::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+.using-inline-block li{
+    display: inline-block;
+}
+.using-inline-block{
+    font-size: 0;
+}
