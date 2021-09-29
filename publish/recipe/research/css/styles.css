@@ -1,0 +1,25 @@
+body{
+    background-color:rgb(252, 224, 182);
+    color:rgb(177, 22, 22);
+}
+html{
+    margin-left: 6ch;
+    margin-right: 6ch;
+    font-family: chennai, sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 18pt;
+}
+h1{
+    font-family: giulia, sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    text-indent: -2rem;
+    font-size: 35pt;
+}
+h2{
+    font-family: giulia, sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    text-indent: -1rem;
+}

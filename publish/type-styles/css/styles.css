@@ -1,0 +1,49 @@
+body{
+    background: rgb(239, 251, 255);
+    margin-left: 8ch;
+}
+html{
+    font-family: 'Open Sans', sans-serif;
+    color: rgb(79, 122, 136);
+    font-size: 20px;
+}
+
+h1{
+    text-indent: -2rem;
+}
+h2{
+    text-indent: -1rem;
+    color: rgba(79, 122, 136, .75);
+}
+h3{
+    color: rgba(79, 122, 136, .5);
+    font-size: 15px;
+    margin-top: 4ch;
+}
+section{
+    margin: 5ch;
+}
+.loosespacing{
+    letter-spacing: .3em;
+}
+.tightspacing{
+    letter-spacing: -.06em;
+}
+.tdu{
+    text-decoration: underline;
+}
+.tdlt{
+    text-decoration: line-through;
+}
+.tdo{
+    text-decoration: overline;
+}
+.ttu{
+    text-transform: uppercase;
+}
+.ttl{
+    text-transform: lowercase;
+}
+.ttc{
+    text-transform: capitalize;
+}
