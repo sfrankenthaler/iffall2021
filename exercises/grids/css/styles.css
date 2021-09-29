@@ -26,3 +26,14 @@
 .using-inline-block{
     font-size: 0;
 }
+.using-flex {
+    display: flex;
+    flex-wrap: wrap;
+}
+.using-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+.using-grid li{
+    width: 100%;
+}
