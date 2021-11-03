@@ -75,3 +75,120 @@ a#btn_harley:hover{
     font-size: 30px;
     transition: all .5s;  
 }
+a#btn_mk{
+    display: block;
+	width: 100px;
+	height: 100px;
+    box-sizing: border-box;
+	border-radius: 50px;
+	margin: auto;
+	margin-top: 75px;
+    background: pink;
+    font-family: 'Playfair Display', serif;
+    text-decoration: none;
+    font-size: 30px;
+    padding: 29px 30px 0 22px;
+    color: black;
+    transition: all .5s; 
+}
+a#btn_mk:hover{
+    font-size: 40px;
+    background: black;
+    color: white;
+    padding: 20px 30px 0 0;
+    transition: all .5s; 
+}
+a#btn_lyft img{
+    width: 100px;
+    margin-top: 85px;
+    transition: all .5s; 
+}
+a#btn_lyft img:hover{
+    width: 130px;
+    transition: all .5s; 
+}
+a#btn_nike {
+    display:block;
+    margin-top: 50px;
+    font-family:'Futura',sans-serif;
+    font-size:60pt;
+    color:rgb(0, 0, 0);
+    transform: skew(-12deg, 0deg);
+    text-decoration: none;
+    transition:0.4s;   
+}
+
+#btn_nike:hover span {
+    text-shadow: -7px 7px 0px #893900, -14px 14px 0px #c14b02, -21px 21px 0px #ff6200;
+    transition:0.4s;
+}
+a#btn_fit{
+    display: inline-block;
+    margin-top: 90px;
+    font-family: 'Open Sans', sans-serif;
+    text-decoration: none;
+    box-sizing: border-box;
+	border-radius: 25px;
+    padding: 6px 30px 6px 30px;
+    background: rgb(0, 255, 195);
+    color: white;
+    font-size: 40px;
+    transition:0.4s; 
+}
+a#btn_fit:hover{
+    background: white;
+    border: 2px solid rgb(0, 255, 195);
+    color: rgb(0, 255, 195);
+    transition:0.4s; 
+}
+a#btn_cn {
+    display: inline-block;
+    margin-top: 75px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
+    font-style: normal;
+    font-size: 50px;
+    color: black;
+    text-decoration: none;
+    transition:0.4s; 
+}
+a#btn_cn:hover{
+    box-sizing: border-box;
+    padding: 6px 6px 6px 6px;
+    background: black;
+    color: white;
+    transition:0.4s; 
+}
+a#btn_insta{
+    display: inline-block;
+    width: 200px;
+    height: 60px;
+    font-family: 'Oleo Script Swash Caps', cursive;
+    font-size: 30pt;
+    text-decoration: none;
+    line-height: 15pt;
+    color: rgb(255, 255, 255);
+    box-sizing: border-box;
+    margin: auto;
+    margin-top: 90px;
+    padding-top: 18px;
+    border-radius: 30px;
+    background: -webkit-linear-gradient(45deg, #f2ba00 0%,#ff6a00 31%,#ff3300 57%,#9d00ff 100%);
+    transition:all 0.4s; 
+}
+a#btn_insta:hover{
+    background: -webkit-linear-gradient(45deg, #f2ba00 0%,#ff6a00 31%,#ff3300 57%,#9d00ff 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; 
+    border: 2px solid #ff3300;
+    transition:all 0.4s; 
+}
+a#btn_tesla img{
+    width: 250px;
+    margin-top: 60px;
+    transition: all .5s; 
+}
+a#btn_tesla img:hover{
+    box-shadow: 0px 0px 18px 0px rgba(255, 0, 0, 0.75);
+}
