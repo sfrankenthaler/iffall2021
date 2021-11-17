@@ -7,7 +7,7 @@ html{
 }
 
 body{
-    background-image: url(https://miro.medium.com/max/739/1*wHsM4lnTwnnkszc-depMbA.jpeg);
+    background-image: url(https://i.pinimg.com/originals/8e/8d/68/8e8d68f84806201866e8ad1c8c6bb3d7.png);
 }
 
 .content{
@@ -42,12 +42,31 @@ nav#mainnav ul li a{
     font-size: 18px;
 }
 nav#mainnav ul li a:hover{
-    text-shadow: 0px 0px 10px rgba(255, 255, 255, 1);
+    font-weight: bold;
     font-size: 19px;
 }
 
 nav#mainnav ul li a:active{
-    text-shadow: 0px 0px 10px rgba(255, 255, 255, 1);
+    font-weight: bold;
     font-size: 19px;
+}
+
+.info h1{
+    margin-top: 150px;
+    color: white;
+    font-family: 'IM Fell English SC', serif;
+    font-size: 120px;
+    font-weight: normal;
+
+}
+.box {
+    background-color: rgba(255, 255, 255, 0.4);
+    border-radius: 10px;
+    padding: 10px 20px 10px 20px;
+    width: 60%;
+}
+.info p{
+    color: rgba(27, 79, 102, 1);
+
 }
 
