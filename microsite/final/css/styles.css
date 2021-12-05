@@ -1,0 +1,460 @@
+html{
+    font-family:'IM Fell English', serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 151.86%;
+}
+
+body{
+    background-image: url(https://i.pinimg.com/originals/8e/8d/68/8e8d68f84806201866e8ad1c8c6bb3d7.png);
+    background-size: cover;
+}
+
+.content{
+    margin-left: 10%;
+    margin-right: 10%;
+    position: relative;
+}
+
+nav {
+    height: 30px;
+    margin-top: 80px;
+}
+
+nav#mainnav ul{
+    list-style: none;
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+nav#mainnav li{
+    padding: 0;
+    margin: 0;
+}
+
+nav#mainnav ul li a{
+    color: rgba(27, 79, 102, 1);
+    display: inline-block;
+    text-decoration: none;
+    font-family: 'IM Fell English SC', serif;
+    font-size: 18px;
+}
+
+
+nav#mainnav ul li a:hover{
+    font-weight: bold;
+    font-size: 19px;
+}
+
+nav#mainnav ul li a.active{
+    font-weight: bold;
+    font-size: 20px;
+}
+
+#mobilenav{
+    margin-top: 0;
+}
+
+nav#mobilenav ul li a.active{
+    font-weight: bold;
+    font-size: 15px;
+}
+
+footer{
+    color: white;
+    background-color:rgba(169, 194, 242, .74);
+    padding-top: 40px;
+    padding-bottom: 40px;
+    font-size: 18px;
+    text-decoration: none;
+}
+
+footer .left{
+    display: inline-block;
+    margin-right: 20px;
+}
+
+footer .right{
+    display: inline-block;
+}
+
+footer .right a{
+    text-decoration: none;
+    color: white;
+}
+
+.info h1{
+    margin-top: 110px;
+    color: white;
+    font-family: 'IM Fell English SC', serif;
+    font-size: 110px;
+    font-weight: normal;
+    line-height: 120px;
+
+}
+
+.home .box{
+    width: 80%;
+}
+
+.box {
+    box-sizing: border-box;
+    display: inline-block;
+    vertical-align: top;
+    background-color: rgba(255, 255, 255, 0.5);
+    border-radius: 10px;
+    padding: 10px 20px 10px 20px;
+    width: 55%;
+    margin-bottom: 70px;
+    margin-right: 9%;
+}
+
+.info p{
+    color: rgba(27, 79, 102, 1);
+}
+
+.image{
+    width: 35%;
+    height: auto;
+    display: inline-block;
+    vertical-align: top;
+}
+
+img{
+    width: 100%;
+    border-radius: 2%;
+}
+
+h2{
+    display: inline-block;
+    color: rgba(27, 79, 102, 1);
+    font-size: 40px;
+    margin-top: 50px;
+    margin-bottom: 10px;
+}
+
+.grid .button_container{
+    width: 200px;
+    margin: 5px;
+}
+.grid li{
+    list-style: none;
+}
+.grid ul{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0px;
+    margin-bottom: 100px;
+}
+
+.button_container img{
+    width: 100%;
+}
+
+.button_container img:hover{
+    box-shadow: 5px 5px 20px 0px rgba(27, 79, 102, 1);
+}
+
+.fearless{
+    background-image: url(../fearlessbkg.png);
+    background-size: cover;
+}
+
+.fearless nav#mainnav ul li a{
+    color: rgba(63, 40, 16, 1);
+}
+
+.fearless .info h1{
+    color: rgba(63, 40, 16, 1);
+}
+
+.fearless .info p{
+    color: rgba(63, 40, 16, 1);
+}
+
+.fearless h2{
+    display: inline-block;
+    color: rgba(63, 40, 16, 1);
+    font-size: 40px;
+    text-align: left;   
+}
+
+.fearless .tracks{
+    font-size: 20px;
+    color: rgba(63, 40, 16, 1);
+    line-height: 40px;
+    margin-bottom: 100px;
+}
+
+.fearless #drawer .contents li a{
+    color: rgba(63, 40, 16, 1);;
+}
+
+.footerf{
+    color: white;
+    background-color:rgba(129, 84, 37, .63);
+    padding-top: 40px;
+    padding-bottom: 40px;
+    font-size: 18px;
+}
+
+.red{
+    background-image: url(../redbkg.png);
+    background-size: cover;
+}
+
+.red nav#mainnav ul li a{
+    color: rgba(25, 29, 56, 1);
+}
+
+.red .info h1{
+    color: rgba(25, 29, 56, 1);
+}
+
+.red .info p{
+    color: rgba(25, 29, 56, 1);
+}
+
+.red h2{
+    display: inline-block;
+    color: rgba(25, 29, 56, 1);
+    font-size: 40px;
+    text-align: left;   
+}
+
+.red .tracks{
+    font-size: 20px;
+    color: rgba(25, 29, 56, 1);
+    line-height: 40px;
+    margin-bottom: 100px;
+}
+
+.red #drawer .contents li a{
+    color: rgba(25, 29, 56, 1);
+}
+
+.footerred{
+    color: white;
+    background-color:rgba(166, 32, 69, .63);
+    padding-top: 40px;
+    padding-bottom: 40px;
+    font-size: 18px;
+}
+
+.reputation{
+    background-image: url(../reputationbkg.png);
+    background-size: cover;
+}
+
+.reputation nav#mainnav ul li a{
+    color: black;
+}
+
+.reputation .info h1{
+    color: black;
+}
+
+.reputation .info p{
+    color: black;
+}
+
+.reputation h2{
+    display: inline-block;
+    color: black;
+    font-size: 40px;
+    text-align: left;   
+}
+
+.reputation .tracks{
+    font-size: 20px;
+    color: black;
+    line-height: 40px;
+    margin-bottom: 100px;
+}
+
+.reputation #drawer .contents li a{
+    color: black;
+}
+
+.footerrep{
+    color: white;
+    background-color:rgba(0, 0, 0, 0.5);
+    padding-top: 40px;
+    padding-bottom: 40px;
+    font-size: 18px;
+}
+.folklore{
+    background-image: url(../folklorebkg.png);
+    background-size: cover;
+}
+.folklore nav#mainnav ul li a{
+    color: rgba(115, 48, 23, 1)
+}
+
+.folklore .info h1{
+    color: rgba(115, 48, 23, 1)
+}
+
+.folklore .info p{
+    color: rgba(115, 48, 23, 1)
+}
+
+.folklore #drawer .contents li a{
+    color: rgba(115, 48, 23, 1)
+}
+
+.footerfolk{
+    color: white;
+    background-color:rgba(115, 48, 23, .55);
+    padding-top: 40px;
+    padding-bottom: 40px;
+    font-size: 18px;
+}
+
+#drawer{
+    display: none;
+}
+
+@media (max-width: 1200px){
+    .info h1{
+        font-size: 100px;
+        line-height: 100px;
+    }
+}
+
+@media (max-width: 1100px){
+    .info h1{
+        font-size: 80px;
+        line-height: 80px;
+    }
+    .grid .button_container{
+        width: 170px;
+    }
+}
+
+@media (max-width: 980px){
+    .info h1{
+        margin-top: 80px;
+    }
+    .box{
+        display: block;
+        width: 80%;
+    }
+    .image{
+        display: block;
+        width: 70%;
+    }
+    .grid .button_container{
+        width: 150px;
+    }
+
+    nav#mainnav ul{
+        display: none;
+    }
+    
+    #drawer {	
+    	display: block;	
+        position: absolute;			
+        right: 0;	
+        width: 125px;
+        height: 30px;
+        z-index: 10;
+        text-align: right;
+    }
+
+    /* This is the button element, with the class "controls" that users will click on in order to open and close the contents */
+    #drawer button.controls {			
+        cursor: pointer;
+        border: none;
+        padding: 0;
+        background: transparent;
+        text-align: right;
+    }
+
+    /* This is what the button.controls element looks like when its parent, #drawer, has the .open class applied to it */
+    #drawer.open button.controls {
+        text-decoration: none;
+
+    }
+
+    /* Here we are just positioning the FontAwesome hamburger icon */
+    #drawer button.controls .fa {			
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        left: 5px;
+    }
+
+    /* This .contents element is what opens and closes when the user clicks the button. It has 0 height (and padding) when it's in its normally closed state */
+    #drawer .contents {	
+        text-align: left;
+        overflow: hidden;					
+        height: 0;
+        padding: 0 10px;
+        box-sizing: border-box;
+        width: 100%;
+        background-color: rgba(255, 255, 255, 0.9);
+        border-radius: 20px;
+        color: #fff;
+        transition: all .5s;
+    }
+    #drawer .contents ul{
+        padding-left: 5px;
+        margin: 0;
+    }
+
+    #drawer .contents li{
+        display: block;
+        margin-bottom: 10px;
+    }
+
+    #drawer .contents li a{
+        text-decoration: none;
+        color: rgba(27, 79, 102, 1);
+    }
+
+    /* When the parent #drawer element has the .open class applied, we change the height and padding of the contents to reveal it. */
+    #drawer.open .contents {				
+        height: 200px;
+        padding: 10px 10px 10px 10px;
+    }
+}
+
+@media (max-width: 850px){
+    .info h1{
+        font-size: 70px;
+        line-height: 70px;
+    }
+    html{
+        font-size: 13px;
+    }
+    h2{
+        font-size: 30px;
+        margin-top: 60px;
+        margin-bottom: 5px;
+    }
+    .tracks{
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 600px){
+    .info h1{
+        font-size: 50px;
+        line-height: 50px;
+        margin-top: 60px;
+    }
+    .box{
+        width: 100%;
+    }
+    .image{
+        width: 90%;
+    }
+    h2{
+        font-size: 25px;
+    }
+}
